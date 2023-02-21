@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="magenta">#DC00DC</color>
+    <color name="teal">#00DCDC</color>
+    <color name="magenta_var">#811C81</color>
+    <color name="teal_var">#17AAAA</color>
+    <color name="black">#FF000000</color>
+    <color name="black_overlay">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FFC6A245</color>
+    <color name="silver">#B8BBFF</color>
+    <color name="bronze">#FF733F10</color>
+    <color name="see_through">#00000000</color>
+</resources>

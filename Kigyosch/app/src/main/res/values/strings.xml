@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kigyosch</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_game">Kigyosch</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="timerText">Time: %1$s</string>
+    <string name="scoreText">Score: %1$d</string>
+    <string name="game_over">Game over!</string>
+    <string name="final_score">Your final score: %1$d</string>
+    <string name="final_time">Your time: %1$s</string>
+    <string name="new_game">New</string>
+    <string name="save">Save</string>
+    <string name="highscores">Highscores</string>
+    <string name="menu">Menu</string>
+    <string name="start_game">Start Game</string>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="number">#%1$d</string>
+    <string name="name">Name</string>
+    <string name="score">%1$d</string>
+    <string name="time">%1$d:%2$d</string>
+    <string name="highscores_screen">Highscores</string>
+    <string name="already_saved">Highscore has been saved already!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="logo_text">Logo</string>
+    <string name="crownIcon">crown icon</string>
+</resources>

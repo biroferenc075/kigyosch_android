@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.Kigyosch"
+        tools:context="bme.kigyosch.GameActivity"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/controls_bgr"
+            android:rotation="0">
+
+            <androidx.constraintlayout.utils.widget.MockView
+                android:id="@+id/mockView"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/buttonLeft"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@null"
+                android:rotation="270"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/mockView"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/direction_button"
+                tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/buttonRight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@null"
+                android:rotation="90"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/mockView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/direction_button"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+                tools:src="@drawable/direction_button" />
+
+            <ImageButton
+                android:id="@+id/buttonUp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@null"
+                android:rotation="0"
+                app:layout_constraintBottom_toTopOf="@+id/mockView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/direction_button"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/buttonDown"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@null"
+                android:rotation="180"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mockView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/direction_button"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/timeText"
+                android:fontFamily="@font/golden_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/timerText"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/scoreText"
+
+                android:fontFamily="@font/golden_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/scoreText"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/timeText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <bme.kigyosch.GameView
+            android:id="@+id/gameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
