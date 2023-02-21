@@ -1,4 +1,5 @@
 # Snake Game for Android
+originally made in 2022
 (Remake of my previous snake game in C)
 # Házi feladat specifikáció
 
