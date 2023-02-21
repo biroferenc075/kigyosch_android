@@ -2,8 +2,6 @@
 
 # Házi feladat specifikáció
 
-Információk [itt](https://viauac00.github.io/laborok/hf)
-
 ## Mobil- és webes szoftverek
 ### 2022.10.17.
 ### Kigyosch
