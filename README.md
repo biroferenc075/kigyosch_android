@@ -1,4 +1,4 @@
-# Snake Game on Android
+# Snake Game for Android
 
 # Házi feladat specifikáció
 
