@@ -26,9 +26,7 @@ Játék közben a képernyőn látszik az eddig megevett almák száma, ami a po
 Ha a játéknak vége, akkor egy képernyő jelenik meg, ahol a felhasználó választhat, hogy elmenti rekordját a toplistára a saját nevével (amit ez esetben be kell gépelnie), megtekinti a toplistát, új játékot kezd, vagy visszalép a főmenübe.
 A toplistán az előzőleg felvitt rekordok szerepelnek, ami egy név-pontszám-idő hármasból áll. Ezek pontszám alapján rendezve jelennek meg, ha két rekordnak azonos a pontszáma, akkor a rövidebb idejű kerül előrébb.  
 
-## Választott technológiák:
-
-- (UI)
-- (Animációk)
-- (RecyclerView)
-- (Perzisztens adattárolás)
+![image](https://user-images.githubusercontent.com/100433458/220399125-4d9059bd-0f44-401c-a576-14f4f3db63d2.png)
+![image](https://user-images.githubusercontent.com/100433458/220399187-a39765d2-569b-4eab-abf0-b42057dff3b8.png)
+![image](https://user-images.githubusercontent.com/100433458/220399218-b422e6c8-ee8a-4467-8999-d3b90a6754d3.png)
+![image](https://user-images.githubusercontent.com/100433458/220399412-c65c0650-7c7d-4d78-91f5-cc477dbdaf92.png)
