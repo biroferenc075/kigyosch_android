@@ -1,5 +1,5 @@
 # Snake Game for Android
-
+(Remake of my previous snake game in C)
 # Házi feladat specifikáció
 
 ## Mobil- és webes szoftverek
